@@ -14,10 +14,11 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven(url = "https://github.com/thainguyen2303/base-library/raw/main/score/libs")
+        maven(url = "https://github.com/ToanMobile/SDKAds/raw/main/sdk_ads/libs")
         google()
         mavenCentral()
-        maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
-        maven(url = "https://github.com/ToanMobile/SDKAds/raw/main/sdk_ads/libs")
+
     }
 }
 
