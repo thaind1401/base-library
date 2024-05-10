@@ -41,10 +41,13 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
     implementation(libs.score.calculator)
+    implementation(libs.ads)
+    //implementation(project(":score"))
     // Kotlin
     implementation(libs.kotlin.stdlib)
 

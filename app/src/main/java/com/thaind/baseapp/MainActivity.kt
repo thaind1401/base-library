@@ -10,6 +10,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.thaind.baseapp.databinding.ActivityMainBinding
 import com.thaind.baseapp.ui.base.BaseActivity
 import com.thaind.baseapp.ui.base.BaseViewModel
+import com.thaind.score.Point
+import com.thaind.score.calculateDistanceTo
 
 class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>() {
 
@@ -18,6 +20,7 @@ class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(mViewBinding.root)
+        println(">>>>>>Distance: ${Point(2.0, 10.0).calculateDistanceTo(Point(10.0, 6.0))}")
         val navView: BottomNavigationView = mViewBinding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)

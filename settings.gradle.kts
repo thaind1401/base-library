@@ -9,7 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
-        maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
+        //maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
     }
 }
 dependencyResolutionManagement {
@@ -18,6 +18,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
+        maven(url = "https://github.com/ToanMobile/SDKAds/raw/main/sdk_ads/libs")
     }
 }
 
