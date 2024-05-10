@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.thaind.score",
+    "module": "score-calculator",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0-RC1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "score-calculator-1.0.4.aar",
+          "url": "score-calculator-1.0.4.aar",
+          "size": 3494,
+          "sha512": "abd32a2ff7646910ca00abbd6fe0371562cf0c5f5f9716c393cd71ac56252f8b95cdb7c5a62a12acfecf7353ed4dc76dbc96d845c109ba30c22056e7bfa1ddf5",
+          "sha256": "cf594998ed18daf6265ee744a11221a5d3c0ace66ee6c3af6717f1ce18647adb",
+          "sha1": "5f6c79b20acc0355da7417a3daf053e029da28b9",
+          "md5": "d146fbfeee4d79d8d7dd5111fe04949f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0-RC1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "score-calculator-1.0.4.aar",
+          "url": "score-calculator-1.0.4.aar",
+          "size": 3494,
+          "sha512": "abd32a2ff7646910ca00abbd6fe0371562cf0c5f5f9716c393cd71ac56252f8b95cdb7c5a62a12acfecf7353ed4dc76dbc96d845c109ba30c22056e7bfa1ddf5",
+          "sha256": "cf594998ed18daf6265ee744a11221a5d3c0ace66ee6c3af6717f1ce18647adb",
+          "sha1": "5f6c79b20acc0355da7417a3daf053e029da28b9",
+          "md5": "d146fbfeee4d79d8d7dd5111fe04949f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "score-calculator-1.0.4-sources.jar",
+          "url": "score-calculator-1.0.4-sources.jar",
+          "size": 1271,
+          "sha512": "a1c640cbb2a40c7d22be224a14def34487027912c96adb6cb30839494d0303d34d748ec17c9f21731c1dfd92c81583fd33b08655b9317edd3212ef18b6aed4b2",
+          "sha256": "4b77aab6ad60959120b48910b3c8865cb30ea46763443a2f3662808ebec53f3e",
+          "sha1": "dd6ee68b5980eb576aaee5d114074da13c5aa814",
+          "md5": "4eea1551c539aa22219daf8ad58e2951"
+        }
+      ]
+    }
+  ]
+}

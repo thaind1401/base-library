@@ -16,7 +16,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            consumerProguardFiles("consumer-rules.pro")
+            consumerProguardFile("proguard-rules.pro")
         }
     }
     compileOptions {
@@ -39,7 +39,7 @@ afterEvaluate {
                 from(components.findByName("release"))
                 groupId = "com.thaind.score"
                 artifactId = "score-calculator"
-                version = "1.0.3"
+                version = "1.0.4"
             }
         }
     }
