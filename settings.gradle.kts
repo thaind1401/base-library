@@ -9,7 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
-        maven(url = "https://gitlab.com/thaind1401/android-base/row/main/score/libs")
+        maven(url = "https://github.com/thainguyen2303/base-library/raw/main/score/libs")
     }
 }
 dependencyResolutionManagement {
@@ -17,7 +17,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven(url = "https://gitlab.com/thaind1401/android-base/row/main/score/libs")
+        maven(url = "https://github.com/thainguyen2303/base-library/raw/main/score/libs")
     }
 }
 
