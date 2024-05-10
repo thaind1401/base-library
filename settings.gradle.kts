@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven(url = "https://github.com/thainguyen2303/base-library/tree/main/score/libs")
+        maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
     }
 }
 
