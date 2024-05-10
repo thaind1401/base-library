@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.thaind.score</groupId>
+  <groupId>com.test.score</groupId>
   <artifactId>score-calculator</artifactId>
   <versioning>
     <latest>v1.0.0</latest>
@@ -8,6 +8,6 @@
     <versions>
       <version>v1.0.0</version>
     </versions>
-    <lastUpdated>20240510081656</lastUpdated>
+    <lastUpdated>20240510084913</lastUpdated>
   </versioning>
 </metadata>

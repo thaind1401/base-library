@@ -37,7 +37,7 @@ afterEvaluate {
                 // val variantName = project.name
                 // from(components[variantName])
                 from(components.findByName("release"))
-                groupId = "com.thaind.score"
+                groupId = "com.test.score"
                 artifactId = "score-calculator"
                 version = "v1.0.0"
             }
