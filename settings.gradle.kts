@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven(url = "https://github.com/thainguyen2303/base-library/row/main/score/libs")
     }
 }
 dependencyResolutionManagement {
